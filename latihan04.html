@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>latihan javascript 04</title>
+</head>
+<body>
+	
+	belajar bahasa javascript di kelas webprograming </script><span id="kls">[tulis disini]</span>
+
+	NAMA<br>
+	<input type="text" id="txNAMA">
+	<br>
+	<button onclick="kelas()">test</button>
+
+	<hr>
+
+	NIM<input type="text" id="txNIM">
+	<button onclick="checkNIM()">check NIM</button>
+
+
+	<script>
+		function kelas(){
+			document.getElementById("kls").innerHTML="kelas B"
+			document.getElementById("txNAMA").value="Rizki"
+		}
+
+		function checkNIM(){
+			let hsl = document.getElementById("txNIM").value
+			alert(hsl)
+		}
+	</script>
+</body>
+</html>
